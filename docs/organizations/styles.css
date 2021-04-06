@@ -5,9 +5,32 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   text-align: center;
+}
+
+h1 {
+  font-size: 65px;
+  margin: 40px;
+  padding: 40px;
+  font-family: serif;
+  text-align: center;
+  border-style: double;
+  border-width: thick;
+  border-color: olivedrab;
+  background-color: rgba(107,142,35,.3);
+  color: white;
+}
+
+p {
+  font-size:27px;
+  font-family: serif;
+  color: white;
+  font-weight: bolder;
+  background-color: rgba(107,142,35,.6);
+  line-height: 25pt;
+
 }
 
 a:link {
@@ -18,19 +41,4 @@ a:link {
 a:visited {
   color: white;
   font-size: 25px;
-}
-
-
-h1 {
-  font-size: 40px;
-  margin: 0;
-  padding: 0;
-  font-family: ui-serif;
-  text-align: center;
-  position: relative;
-  border-style: double;
-  border-width: thick;
-  border-color: olivedrab;
-  background-color: rgba(107,142,35,.3);
-  color: white;
 }

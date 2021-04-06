@@ -1,25 +1,24 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   text-align: center;
-  background-image: url("media/trees.jpeg");
+  background-image: url("media/trees.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 h1 {
-  font-size: 40px;
-  margin: 0;
-  padding: 0;
-  font-family: ui-serif;
+  font-size: 65px;
+  margin: 40px;
+  padding: 40px;
+  font-family: serif;
   text-align: center;
-  position: relative;
   border-style: double;
   border-width: thick;
   border-color: olivedrab;
@@ -28,31 +27,34 @@ h1 {
 }
 
 p {
-  font-size: 18px;
+  font-size:27px;
+  font-family: serif;
   color: white;
-  font-weight: 300;
-  background-color: rgba(107,142,35,.5);
+  font-weight: bolder;
+  background-color: rgba(107,142,35,.6);
+  line-height: 25pt;
 
 }
 
 h2 {
-  font-size:14px
+  font-size:42px;
   margin: 0;
   padding: 0;
-  font-color: white;
+  font-color: #581845;
   font-family: serif;
   text-align: center;
   color: white;
 }
 
 a:link {
-  color: white;
-  font-size: 25px;
+  color: #581845;
+  font-size:42px;
 }
 
 a:visited {
-  color: white;
-  font-size: 25px;
+  color: #581845;
+  font-size:42px;
+  font-weight: 400px;
 }
 
 .dropdown {
@@ -62,7 +64,7 @@ a:visited {
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size:42px;
   border: none;
   outline: none;
   color: white;
@@ -70,6 +72,7 @@ a:visited {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  position: relative;
 }
 
 .dropdown:hover .dropbtn {
@@ -78,7 +81,7 @@ a:visited {
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: relative;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -92,14 +95,17 @@ a:visited {
   text-decoration: none;
   display: block;
   text-align: center;
+  background-color: rgba(107,142,35,.5);
+  opacity: .5;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #581845;
+  color: olivedrab;
 }
 
 .dropdown:hover .dropdown-content {
-color: slategrey;
+color: seagreen;
   display: block;
 }
 

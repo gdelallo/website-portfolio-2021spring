@@ -5,13 +5,13 @@
 }
 
 #international {
-  margin: 0px;
+  margin: 10px;
   padding: 0px;
   text-align: center;
-  background-image: url("../media/globe.jpg");
+  background-image: url("../media/worldmap.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-color: #641E16;
+  background-color: white;
 }
 
 #national {
@@ -29,32 +29,54 @@
 h1 {
   font-size: 65px;
   margin: 20px;
+  max-width: inherit;
   padding: 20px;
   font-family: serif;
   text-align: center;
   border-style: double;
   border-width: thick;
-  border-color: slategrey;
-  background-color: rgba(70,80,90,.5);
-  color: white;
+  border-color: #006347;
+  background-color:rgba(00,63,47,.3);
+  color: seagreen;
 }
 
+p.intro  {
+  font-size:22px;
+  font-family: serif;
+  color:#006347;
+  font-weight: bolder;
+  line-height: 25pt;
+  list-style-position: inside;
+}
 p {
   font-size:27px;
   font-family: serif;
-  color: white;
-  font-weight: bolder;
-  background-color: rgba(70,80,90,.3);
-  line-height: 25pt;
+  color: #1F618D;
+  font-weight: normal;
+  line-height: 15pt;
+}
 
+li {
+  list-style-position: inside;
+  font-size: 30px;
 }
 
 a:link {
-  color: white;
+  color: #1F618D;
   font-size: 25px;
 }
 
 a:visited {
-  color: #003d47;
+  color:white;
+  font-size: 25px;
+}
+
+#intrntnl:link {
+  color: #1F618D;
+  font-size: 25px;
+}
+
+#intrntnl:visited {
+  color:seagreen;
   font-size: 25px;
 }

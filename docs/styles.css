@@ -7,50 +7,58 @@
 body {
   margin: 0;
   padding: 0;
-  color: olivedrab
   text-align: center;
-  border-style: double;
-  border-color: White
+  background-image: url("media/trees.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
-  style: "font-size:50px;"
+  font-size: 40px;
   margin: 0;
   padding: 0;
   font-family: ui-serif;
   text-align: center;
-  div.static
   position: relative;
-  border:
-  background-color: green;
+  border-style: double;
+  border-width: thick;
+  border-color: olivedrab;
+  background-color: rgba(107,142,35,.3);
+  color: white;
+}
+
+p {
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+  background-color: rgba(107,142,35,.5);
+
 }
 
 h2 {
-  style: "font-size:30px;"
+  font-size:14px
   margin: 0;
   padding: 0;
-  font-color: #006347;
-  font-family: ui-serif;
+  font-color: white;
+  font-family: serif;
   text-align: center;
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+}
+
+a:link {
+  color: white;
+  font-size: 25px;
+}
+
+a:visited {
+  color: white;
+  font-size: 25px;
 }
 
 .dropdown {
   float: center;
   overflow: hidden;
+  color: white;
 }
 
 .dropdown .dropbtn {
@@ -64,7 +72,7 @@ h2 {
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn {
   background-color: red;
 }
 
@@ -78,12 +86,12 @@ h2 {
 }
 
 .dropdown-content a {
-  float: none;
+  float: center;
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: left;
+  text-align: center;
 }
 
 .dropdown-content a:hover {
@@ -91,9 +99,10 @@ h2 {
 }
 
 .dropdown:hover .dropdown-content {
+color: slategrey;
   display: block;
 }
-___________________________________________________
+
 .page {
   display: flex;
   flex-wrap: wrap;
@@ -105,25 +114,4 @@ ___________________________________________________
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.header {
-  background-color: #FFFAF1; /* Off White */
-}
-
-.content {
-  background-color: #EAEDF0;
-  height: 600px;
-}
-
-.feature-1 {
-  background-color: #FFFAF1; /* Off White */
-}
-
-.feature-2 {
-  background-color: #FFFAF1; /* Off White */
-}
-
-.feature-3 {
-  background-color: #FFFAF1; /* Off White */
 }

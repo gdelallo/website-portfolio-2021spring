@@ -9,6 +9,12 @@ body {
   padding: 0;
   text-align: center;
 }
+.basic {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 50px;
+}
 
 h1 {
   font-size: 65px;

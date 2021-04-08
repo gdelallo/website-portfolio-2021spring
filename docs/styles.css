@@ -26,14 +26,13 @@ h1 {
   color: white;
 }
 
-p {
+.green {
   font-size:27px;
   font-family: serif;
   color: white;
   font-weight: bolder;
-  background-color: rgba(107,142,35,.6);
+  background-color: rgba(107,142,35,.5);
   line-height: 25pt;
-
 }
 
 h2 {
@@ -52,15 +51,17 @@ a:link {
 }
 
 a:visited {
-  color: #1F618D;
+  color: #581845;
   font-size:42px;
   font-weight: 400px;
 }
 
 .dropdown {
+  font-size:42px;
   float: center;
   overflow: hidden;
   color: white;
+  line-height: 75pt;
 }
 
 .dropdown .dropbtn {

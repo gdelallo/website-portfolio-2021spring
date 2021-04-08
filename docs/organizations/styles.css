@@ -15,15 +15,25 @@
 }
 
 #national {
-  margin: 10px;
+  margin: 8px;
   padding: 10px;
   text-align: center;
+  background-image: url("../media/usa.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  line-height: 25pt;
 }
 
 #local {
   margin: 10px;
   padding: 10px;
   text-align: center;
+  background-image: url("../media/pa");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  line-height: 25pt;
 }
 
 h1 {
@@ -35,15 +45,15 @@ h1 {
   text-align: center;
   border-style: double;
   border-width: thick;
-  border-color: #006347;
+  border-color: olivedrab;
   background-color:rgba(00,63,47,.3);
-  color: seagreen;
+  color: olivedrab;
 }
 
 p.intro  {
   font-size:22px;
   font-family: serif;
-  color:#006347;
+  color:olivedrab;
   font-weight: bolder;
   line-height: 25pt;
   list-style-position: inside;
@@ -61,6 +71,11 @@ li {
   font-size: 30px;
 }
 
+ul {
+margin: 15px;
+}
+
+
 a:link {
   color: #1F618D;
   font-size: 25px;
@@ -77,6 +92,15 @@ a:visited {
 }
 
 #intrntnl:visited {
-  color:seagreen;
+  color: olivedrab;
   font-size: 25px;
+}
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  color: thistle;
+  border-style: solid;
+  border-color: #006347;
 }

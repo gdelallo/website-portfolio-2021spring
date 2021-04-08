@@ -1,5 +1,4 @@
-Your final project files (html, css, images, etc) should go in here. **One of those files should be called index.html**: it will become your landing page. (Otherwise, your site will land on this readme.)
+Hello and welcome to my website! I am excited to share a page that reflects something I am very passionate about and is a central theme in my life: environmentalism. Throughout this site, you can expect to learn and explore lots of new things, such as what environmentalism is, how must intersect with equality, how to be more eco-friendly, and how to get involved. I will also include suggestions on a multitude of things, like my favorite blog/newsletter, ethical eco brands, diy tips, and more. I hope this page helps inspire people to begin their transition to a greener lifestyle, because through meaningful collective action, we, together, can help to heal the planet.   
 
-You can then publish this site to the open web: just go to your repository's Settings and scroll down to the GitHub Pages section, and change the source from "none" to "master branch /docs folder."
 
-![activate GitHub Pages from repo Settings by changing the source](https://github.com/benmiller314/cdm2020spring/blob/gh-pages/assets/img/github-pages-activate.gif?raw=true)
+file:///Users/grace/Desktop/composing%20digital%20media/website-portfolio-2021spring/docs/index.html

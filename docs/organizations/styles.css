@@ -6,22 +6,22 @@
 
 #international {
   margin: 10px;
-  padding: 0px;
+  padding: 10px;
   text-align: center;
-  background-image: url("../media/worldmap.png");
-  background-size: contain;
+  background-image: url("../media/3.png");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-color: white;
+  background-color: lightslategrey;
 }
 
 #national {
   margin: 8px;
   padding: 10px;
   text-align: center;
-  background-image: url("../media/usa.svg");
-  background-size: contain;
+  background-image: url("../media/2.png");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-color: white;
+  background-color: lightslategrey;
   line-height: 25pt;
 }
 
@@ -29,10 +29,10 @@
   margin: 10px;
   padding: 10px;
   text-align: center;
-  background-image: url("../media/pa");
-  background-size: contain;
+  background-image: url("../media/1.png");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-color: white;
+  background-color: lightslategrey;
   line-height: 25pt;
 }
 
@@ -42,12 +42,12 @@ h1 {
   max-width: inherit;
   padding: 20px;
   font-family: serif;
-  text-align: center;
-  border-style: double;
-  border-width: thick;
-  border-color: olivedrab;
-  background-color:rgba(00,63,47,.3);
-  color: olivedrab;
+  text-align: right;
+  color: #708063;
+}
+
+h1.intro {
+text-align: center; 
 }
 
 p.intro  {
@@ -75,17 +75,6 @@ ul {
 margin: 15px;
 }
 
-
-a:link {
-  color: #1F618D;
-  font-size: 25px;
-}
-
-a:visited {
-  color:white;
-  font-size: 25px;
-}
-
 #intrntnl:link {
   color: #1F618D;
   font-size: 25px;
@@ -96,11 +85,76 @@ a:visited {
   font-size: 25px;
 }
 
-a.button {
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
+a:link {
+  color: white;
+  font-size:42px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+a:visited {
+  color: #581845;
+  font-size:42px;
+  font-weight: 400px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #708063;
+  width: 100%;
+  border-style: groove;
+  border-color: #708063;
+}
+
+.navbar a {
+  float: center;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding: 14px;
+}
+
+.dropdown {
+  float: center;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 24px;
+  border: none;
+  outline: none;
   color: thistle;
-  border-style: solid;
-  border-color: #006347;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  font-weight: bolder;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #a7c698;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #a7c698;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: thistle;
+  padding: 12px 16px;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #a7c698;
+}
+
+.dropdown:hover .dropdown-content {
+  display: contents;
 }

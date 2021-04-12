@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  background-color: lightslategrey;
 }
 .basic {
   margin: 0;
@@ -25,8 +26,8 @@ h1 {
   text-align: center;
   border-style: double;
   border-width: thick;
-  border-color: #006347;
-  background-color:rgba(00,63,47,.3);
+  border-color: white;
+  background-color:rgba(107,142,35,.5);
   color: white;
 }
 
@@ -37,28 +38,38 @@ h2 {
   padding: 15px;
   font-family: serif;
   text-align: center;
-  color: #006347;
+  color: olivedrab;
 }
 
 p {
+  font-size: 25px;
+  line-height: 25pt;
+  margin: 18px;
+  color: white;
   font-size:32px;
   font-family: serif;
-  color: seagreen;
   font-weight: bolder;
-  line-height: 20pt;
-  margin: 18px;
+}
+
+p.moreinfo {
+  font-size: 26px;
+  text-align: center;
+  line-height: 11pt;
 }
 
 a:link {
-  color: white;
-  font-size: 25px;
+  color: thistle;
+  font-size: 32px;
+  font-family: serif;
+  font-weight: bolder;
 }
 
 a:visited {
-  color: white;
-  font-size: 25px;
+  color: thistle;
+  font-size: 32px;
+  font-family: serif;
+  font-weight: bolder;
 }
-
 
 a.button {
   -webkit-appearance: button;
@@ -67,4 +78,79 @@ a.button {
   color: thistle;
   border-style: solid;
   border-color: #006347;
+  font-size: 27px;
+}
+
+.dropdown {
+  font-size:26px;
+  float: center;
+  overflow: hidden;
+  color: #006347;
+  font-weight: bold;
+  line-height: 75pt;
+}
+
+.dropdown .dropbtn {
+  font-size:26px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  position: relative;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: lightslategrey;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: lightslategrey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: center;
+  color: seagreen;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  background-color: thistle;
+  opacity: .5;
+}
+
+.dropdown-content a:hover {
+  background-color: #006347;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+color: lightslategrey;
+  display: block;
+}
+
+.arrow {
+  border: solid #006347;
+  border-width: 0 7px 7px 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+  margin-left: 12px;
+  margin-right: 12px;
 }

@@ -4,84 +4,94 @@
   box-sizing: border-box;
 }
 
+body {
+ background-color: #708063;
+}
+
 #international {
-  margin: 10px;
-  padding: 10px;
   text-align: center;
-  background-image: url("../media/3.png");
-  background-size: cover;
+  background-image: url("../media/world.png");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-color: lightslategrey;
+  background-color: #708063;
+  background-color: thistle;
+  line-height: 25pt;
 }
 
 #national {
   margin: 8px;
   padding: 10px;
   text-align: center;
-  background-image: url("../media/2.png");
-  background-size: cover;
+  background-image: url("../media/us.png");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-color: lightslategrey;
+  background-color: thistle;
   line-height: 25pt;
 }
 
 #local {
-  margin: 10px;
-  padding: 10px;
   text-align: center;
-  background-image: url("../media/1.png");
-  background-size: cover;
+  background-image: url("../media/pa.png");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-color: lightslategrey;
+  background-color: thistle;
   line-height: 25pt;
 }
 
 h1 {
-  font-size: 65px;
+  font-size: 80px;
   margin: 20px;
-  max-width: inherit;
-  padding: 20px;
   font-family: serif;
   text-align: right;
-  color: #708063;
+  color: white;
 }
 
 h1.intro {
-text-align: center; 
+text-align: center;
 }
 
 p.intro  {
-  font-size:22px;
+  font-size:27px;
   font-family: serif;
-  color:olivedrab;
+  color:white;
   font-weight: bolder;
   line-height: 25pt;
   list-style-position: inside;
+  height: 50px;
+  width: 350pt;
 }
 p {
-  font-size:27px;
+  font-size:35px;
   font-family: serif;
-  color: #1F618D;
-  font-weight: normal;
-  line-height: 15pt;
+  color: white;
+  font-weight: bolder;
+  line-height: 25pt;
+  text-align: left;
+  height: 50px;
+  width: 600pt;
+  margin-left: 20px;
 }
 
-li {
-  list-style-position: inside;
-  font-size: 30px;
+.conclusion {
+  font-size:27px;
+  font-family: serif;
+  color: #708063;
+  font-weight: bold;
+  text-align: center;
+  width: 100%
 }
 
 ul {
-margin: 15px;
+list-style-type: none;
 }
 
-#intrntnl:link {
-  color: #1F618D;
+#intrntnl:link #intrntnl:visited {
+  color: thistle;
   font-size: 25px;
 }
 
-#intrntnl:visited {
-  color: olivedrab;
+#ntnl:link #ntnl:visited {
+  color: white;
   font-size: 25px;
 }
 
@@ -93,7 +103,7 @@ a:link {
 }
 
 a:visited {
-  color: #581845;
+  color: lightslategrey;
   font-size:42px;
   font-weight: 400px;
 }
@@ -101,26 +111,25 @@ a:visited {
 .navbar {
   overflow: hidden;
   background-color: #708063;
-  width: 100%;
-  border-style: groove;
-  border-color: #708063;
+  width: 45%;
+  height: 60pt;
 }
 
 .navbar a {
-  float: center;
-  font-size: 24px;
+  float: left;
+  font-size: 20px;
   color: white;
   text-align: center;
   padding: 14px;
 }
 
 .dropdown {
-  float: center;
+  float: left;
   overflow: hidden;
 }
 
 .dropdown .dropbtn {
-  font-size: 24px;
+  font-size: 16px;
   border: none;
   outline: none;
   color: thistle;
@@ -137,24 +146,25 @@ a:visited {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #a7c698;
+  background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
   z-index: 1;
 }
 
 .dropdown-content a {
   float: none;
-  color: thistle;
+  color: #708063;
   padding: 12px 16px;
+  text-decoration: none;
   display: block;
-  text-align: center;
+  text-align: left;
 }
 
 .dropdown-content a:hover {
-  background-color: #a7c698;
+  background-color: #ddd;
 }
 
 .dropdown:hover .dropdown-content {
-  display: contents;
+  display: block;
 }

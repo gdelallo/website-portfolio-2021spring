@@ -10,15 +10,13 @@ body {
 }
 
 .basic {
-    text-align: center;
     background-image: url("../media/basic.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .inter {
-  text-align: center;
-  background-image: url("../media/5.png");
+  background-image: url("../media/4.png");
   background-size: cover;
   background-repeat: no-repeat;
   color: #708063;
@@ -38,63 +36,79 @@ h1 {
   color: #708063;
 }
 
-h1.tip {
-  color: #708063;
-}
-
 h2 {
-  font-size: 45px;
+  font-size: 55px;
   margin: 20px;
   padding: 20px;
   font-family: serif;
-  text-align: right;
+  text-align: center;
   color: white;
 }
 
-ul.easy {
-  font-size: 27px;
+ul {
+  font-size: 34px;
   margin: 20px;
   max-width: inherit;
   padding: 15px;
   font-family: serif;
   text-align: center;
   color: white;
-  text-decoration: none;
+  list-style-type: none;
+}
+
+ul.more {
+  list-style-type: circle;
+  list-style-position: inside;
 }
 
 p {
-  font-size: 27px;
+  font-size: 34px;
   line-height: 25pt;
   margin: 18px;
   padding-left: 10px;
   color: #708063;
-  font-size:32px;
   font-family: serif;
-  font-weight: bold;
-}
-
-p.moreinfo {
-  font-size: 27px;
-  text-align: center;
-  line-height: 11pt;
-}
-
-a:link {
-  color: white;
-  font-size:42px;
-  text-align: center;
   font-weight: bolder;
 }
 
+.moreinfo {
+  font-size: 34px;
+  text-align: center;
+  line-height: 35pt;
+  font-family: serif;
+  color: white;
+  font-weight: bold;
+}
+
+p.inter{
+  font-size: 27px;
+  text-align: center;
+  line-height: 20pt;
+  font-family: serif;
+  color: White
+  font-weight: bold;
+}
+
+a:link {
+  font-size:34px;
+  color: #708063;
+  font-weight: bold;
+  font-family: serif;
+}
+
 a:visited {
-  color: lightslategrey;
-  font-size:30px;
-  font-weight: 400px;
+  font-size:34px;
+  color: #708063;
+  font-weight: bold;
+  font-family: serif;
+}
 
 .navbar {
     overflow: hidden;
     background-color: #708063;
     width: 45%;
+    height: 60pt;
+    float: right;
   }
 
 .navbar a {
@@ -117,7 +131,7 @@ a:visited {
   color: thistle;
   padding: 14px 16px;
   background-color: inherit;
-  font-weight: bolder;
+  font-weight: 750;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -131,13 +145,17 @@ a:visited {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  float: none;
+
 }
 
 .dropdown-content a {
+  float: none;
   color: #708063;
   padding: 12px 16px;
   display: block;
   text-align: left;
+  float: none;
 }
 
 .dropdown-content a:hover {
@@ -154,17 +172,10 @@ a:visited {
   border-width: 0 12px 12px 0;
   display: inline-block;
   padding: 5px;
-  height: 20pt;
+  height: 40pt;
 }
 
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-}
-
-hr.rounded {
-  border-top: 8px solid #bbb;
-  border-radius: 5px;
-  margin-left: 12px;
-  margin-right: 12px;
 }

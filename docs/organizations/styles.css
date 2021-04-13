@@ -19,8 +19,6 @@ body {
 }
 
 #national {
-  margin: 8px;
-  padding: 10px;
   text-align: center;
   background-image: url("../media/us.png");
   background-size: contain;
@@ -97,7 +95,7 @@ list-style-type: none;
 
 a:link {
   color: white;
-  font-size:42px;
+  font-size:35px;
   text-align: center;
   font-weight: bolder;
 }
@@ -113,6 +111,7 @@ a:visited {
   background-color: #708063;
   width: 45%;
   height: 60pt;
+  float: right;
 }
 
 .navbar a {
@@ -135,8 +134,7 @@ a:visited {
   color: thistle;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit;
-  font-weight: bolder;
+  font-weight: 750;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -150,6 +148,7 @@ a:visited {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
   z-index: 1;
+  float: none;
 }
 
 .dropdown-content a {

@@ -12,12 +12,14 @@ body {
 }
 
 h1 {
+  font-family: 'Belleza', sans-serif;
   font-size: 70px;
   text-align: center;
   color: #708063;
 }
 
 h2 {
+  font-family: 'Belleza', sans-serif;
   font-size: 30px;
   margin: 20px;
   max-width: inherit;
@@ -29,7 +31,7 @@ h2 {
 
 p {
   font-size: 35px;
-  font-family: serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
   font-weight: bolder;
   line-height: 25pt;
@@ -52,7 +54,7 @@ a:visited {
 }
 
 .navbar {
-  
+
   background-color: #708063;
   width: 45%;
   height: 60pt;

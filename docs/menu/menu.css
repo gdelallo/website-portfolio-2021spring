@@ -16,17 +16,18 @@ body {
 }
 
 .inter {
-  background-image: url("../media/4.png");
-  background-size: cover;
+  background-image: url("../media/intersectionality.png");
+  background-size: contain;
   background-repeat: no-repeat;
   color: #708063;
-  background-color: thistle;
+  background-color: lightslategrey;
 }
 
-.tips {
-  background-image: url("../media/5.png");
+.resource{
+  background-image: url("../media/resources.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: white;
 }
 
 h1 {
@@ -170,9 +171,8 @@ a:visited {
 .arrow {
   border: solid #a7c698;
   border-width: 0 12px 12px 0;
-  display: inline-block;
+  display: grid;
   padding: 5px;
-  height: 40pt;
 }
 
 .down {

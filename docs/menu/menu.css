@@ -6,176 +6,222 @@
 
 body {
   text-align: center;
-  background-color: lightslategrey;
-}
-
-.basic {
-    background-image: url("../media/basic.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.inter {
-  background-image: url("../media/intersectionality.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  color: #708063;
-  background-color: lightslategrey;
-}
-
-.resource{
-  background-image: url("../media/resources.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: white;
-}
-
-h1 {
-  font-size: 65px;
-  font-family: serif;
-  text-align: center;
-  color: #708063;
-}
-
-h2 {
-  font-size: 55px;
-  margin: 20px;
-  padding: 20px;
-  font-family: serif;
-  text-align: center;
-  color: white;
-}
-
-ul {
-  font-size: 34px;
-  margin: 20px;
-  max-width: inherit;
-  padding: 15px;
-  font-family: serif;
-  text-align: center;
-  color: white;
-  list-style-type: none;
-}
-
-ul.more {
-  list-style-type: circle;
-  list-style-position: inside;
-}
-
-p {
-  font-size: 34px;
-  line-height: 25pt;
-  margin: 18px;
-  padding-left: 10px;
-  color: #708063;
-  font-family: serif;
-  font-weight: bolder;
-}
-
-.moreinfo {
-  font-size: 34px;
-  text-align: center;
-  line-height: 35pt;
-  font-family: serif;
-  color: white;
-  font-weight: bold;
-}
-
-p.inter{
-  font-size: 27px;
-  text-align: center;
-  line-height: 20pt;
-  font-family: serif;
-  color: White
-  font-weight: bold;
-}
-
-a:link {
-  font-size:34px;
-  color: #708063;
-  font-weight: bold;
-  font-family: serif;
-}
-
-a:visited {
-  font-size:34px;
-  color: #708063;
-  font-weight: bold;
-  font-family: serif;
-}
-
-.navbar {
-    overflow: hidden;
-    background-color: #708063;
-    width: 45%;
-    height: 60pt;
-    float: right;
-  }
-
-.navbar a {
-  float: left;
-  font-size: 20px;
-  color: white;
-  text-align: center;
-  padding: 14px;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: thistle;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-weight: 750;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #a7c698;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  float: none;
-
+.logo {
+  display: block;
+  align-items: center;
+  max-width: 60em;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
 }
 
-.dropdown-content a {
-  float: none;
+h1 {
+  font-family: 'Belleza', sans-serif;
+  font-size: 85px;
+  color: #926026;
+  border-style: double;
+  border-color: #f8f7cf;
+  border-radius: 1em;
+  margin-top: .5em;
+}
+
+h2 {
+  font-size: 72px;
+  font-family: 'Belleza',sans-serif;
   color: #708063;
-  padding: 12px 16px;
-  display: block;
+  margin-top: 2em;
+}
+
+h3 {
+  font-size: 65px;
+  font-family: 'Belleza',sans-serif;
+  color: #375971;
+  margin-top: 1.5em;
+}
+
+h3.basic {
+  margin-top: 2em;
+}
+
+h4 {
+  font-size: 50px;
+  font-family: 'Raleway',sans-serif;
+  color: #5d3b3b;
   text-align: left;
-  float: none;
+  margin-left: 1em;
+  margin-bottom: .3em;
 }
 
-.dropdown-content a:hover {
-  background-color: #ddd;
+h4.moreinfo{
+  font-size: 40px;
+  margin-top: 2.5em;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+.home{
+  font-family: 'Raleway',sans-serif;
+  color:#ffe26e;
+  text-align: left;
+  margin-left: 1em;
+  list-style-type: georgian;
+
 }
 
-
-.arrow {
-  border: solid #a7c698;
-  border-width: 0 12px 12px 0;
-  display: grid;
-  padding: 5px;
+p {
+  font-size: 38px;
+  font-family: 'Raleway',sans-serif;
+  color: #f8f7cf;
+  line-height: 35pt;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
-.down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+p.gogreen {
+  font-size: 40px;
+  color: #926026;
+  font-family: 'Caveat', cursive;
+  margin-top: -4em;
+  padding: 2em 3em;
+}
+
+li {
+  font-size: 34px;
+  max-width: inherit;
+  text-align: center;
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+
+a:link {
+  color: #926026;
+  font-size: 38px;
+}
+
+a:visited {
+  color: #c47867;
+  font-size: 38px;
+}
+
+a.info{
+  font-size: 38px;
+  font-family: 'Raleway', sans-serif;
+}
+
+nav {
+  color: #926026;
+  display: flex;
+  justify-content: center;
+  font-family:'Raleway', sans-serif
+}
+
+nav a {
+  font-size: 30px;
+  color: #926026;
+  padding: 10px;
+  width: 6em;
+  background-color:rgba(248, 247, 207,.5);
+  border-style: solid;
+  border-width: thin;
+  border-color: #a7c698;
+}
+
+hr.rounded {
+  border-top: 1em solid #708063;
+  border-radius: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.button {
+  font-size: 25px;
+  background-color: #708063;
+  font-family: 'Raleway',sans-serif;
+  border-style: solid;
+  border-color: #5d3b3b;
+  border-radius: 2em;
+  color: #5d3b3b;
+  padding: .5em 1.75em;
+  align: center;
+  decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+footer {
+ font-size: 25px;
+ color: #375971;
+ justify-content: center;
+ align-items: center;
+ padding: 2em;
+ margin-top: 10em;
+}
+
+a.footer{
+  font-size: 25px;
+  color: #375971;
+}
+
+/* mobile */
+@media only screen and (max-width: 400px) {
+  body {
+    .header {
+      height: 50px;
+    }
+    .description {
+      height: 150px;
+    }
+    nav {
+      width: 100%;
+    }
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+      width: 33.3%;
+    }
+  }
+
+/* tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .header {
+    height: 50px;
+  }
+  .description {
+    height: 150px;
+  }
+  nav {
+    width: 100%;
+  }
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    width: 33.3%;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 961px) {
+  .page {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .header {
+    height: 50px;
+  }
+  .description {
+    height: 150px;
+  }
+  nav {
+    width: 100%;
+  }
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    width: 33.3%;
+  }
 }
